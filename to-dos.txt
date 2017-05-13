@@ -1,0 +1,53 @@
+FRONT-END
+----------
+
+1)  Mock up Landing Page
+
+Navbar:
+
+Top left - Study-Tymer logo
+Top- Right -->  Log-In || Username w/ account hamburger dropdown
+
+
+Main Module:
+
+Title
+
+- ul, always starts with one blank task w/ name, time for task, stop + play button 
+
+- drag tasks to swap with eachother 
+
+- clicking into any of the fields will enable editing of a field
+
+- Clicking the '+' button will add a new task
+|
+|___ Should append to the bottom of the list
+|___ Should be draggable - on drag, list should re-order
+
+
+
+
+A Task Should Have:
+
+- Name
+- Time
+- Delete Button
+
+
+BACK-END
+---------
+
+- Handle Signing up Users
+- Log-in Users
+- Save Sequences to a User
+- A user can have many sequences.
+- A sequence can have many todos.
+
+
+
+Nice-To-Haves:
+
+1)  Break inserts.
+|
+|____ Should it be part of each individual task || shoudl it be a global break button that applies to   the entire list (ex:  every 15 min, a break occurs).
+
